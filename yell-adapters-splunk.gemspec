@@ -12,7 +12,6 @@ Gem::Specification.new do |gem|
   gem.homepage      = ""
 
   gem.add_runtime_dependency "yell", "~> 1.2"
-  gem.add_development_dependency "pry", "~> 0.9.11.4"
 
   gem.files         = `git ls-files`.split($/)
   gem.test_files    = gem.files.grep(%r{^(spec)/})
