@@ -1,4 +1,4 @@
-# Yell::Adapters::Splunk
+# Yell adapter for Splunk
 
 Yell adapter that writes to a file text file similar to Yell::Adapters::File but
 uses the key/value syntax recommended by Splunk in 
