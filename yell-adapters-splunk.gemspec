@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["goyox86@gmail.com"]
   gem.description   = %q{Splunk Yell adapter}
   gem.summary       = %q{Splunk Yell adapter}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/goyox86/yell-adapters-splunk"
 
   gem.add_runtime_dependency "yell", "~> 1.2"
 
