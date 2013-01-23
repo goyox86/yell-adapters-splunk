@@ -1,10 +1,12 @@
 # encoding: utf-8
 
 module Yell #:nodoc:
+
   module Adapters #:nodoc:
+
     class Splunk < Yell::Adapters::File
 
-      FORMAT_MAP = {
+      FormatMap = {
         level: "L",       # Level, e.g. 'INFO', 'WARN'
         date: "d",        # ISO8601 Timestamp
         hostname: "h",    # Hostname
@@ -18,10 +20,12 @@ module Yell #:nodoc:
       }
 
       setup do |options|
-        options[:format] = FORMAT_MAP.map { |k, v| "#{k}=\%#{v}" }.join(',')
+        options[:format] = FormatMap.map { |k, v| "#{k}=\%#{v}" }.join(',')
       end
+
     end
 
     register(:splunk, Yell::Adapters::Splunk)
+
   end
 end
