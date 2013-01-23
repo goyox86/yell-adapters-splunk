@@ -1,6 +1,8 @@
 # Yell::Adapters::Splunk
 
-TODO: Write a gem description
+Yell adapter that writes to a file text file similar to Yell::Adapters::File but
+uses the key/value syntax recommended by Splunk in 
+[Logging Best Practices](http://dev.splunk.com/view/logging/SP-CAAADP6
 
 ## Installation
 
